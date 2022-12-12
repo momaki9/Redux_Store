@@ -1,14 +1,14 @@
-import React from "react";
-import { Provider } from "react-redux";
-import store from "./store";
-// import React, { createContext, useContext } from "react";
-// import { useProductReducer } from './reducers'
-// const StoreContext = createContext();
-// const { Provider } = StoreContext;
+// import React from "react";
+// import { Provider } from "react-redux";
+// import store from "./store";
+// // import React, { createContext, useContext } from "react";
+// // import { useProductReducer } from './reducers'
+// // const StoreContext = createContext();
+// // const { Provider } = StoreContext;
 
-export default function StoreProvider(props) {
-  return <Provider store={store} {...props} />;
-};
+// export default function StoreProvider(props) {
+//   return <Provider store={store} {...props} />;
+// };
 
 // const StoreProvider = ({ value = [], ...props }) => {
 //   const [state, dispatch] = useProductReducer({
